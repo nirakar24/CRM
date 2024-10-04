@@ -1,0 +1,37 @@
+.analysis-container {
+    padding: 20px;
+    background-color: #121212; /* Dark background */
+}
+
+.navbar {
+    background-color: #333; /* Keeping this dark */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    color: #e0e0e0; /* Light gray text */
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555; /* Slightly lighter hover effect */
+}
+
+.chart-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.insights {
+    font-style: italic;
+    margin-top: 10px;
+    color: #ffab00; /* Golden color for insights */
+}
+
+h1, h3 {
+    color: #ffab00; /* Golden yellow for headings */
+}
